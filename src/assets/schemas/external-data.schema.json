@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IExternalData",
+  "type": "object",
+  "properties": {
+    "someString": { "type": "string" },
+    "someNumber": { "type": "number" }
+  },
+  "additionalProperties": false,
+  "required": [
+      "someString",
+      "someNumber"
+  ]
+}
